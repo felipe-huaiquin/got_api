@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="got_houses.js" type="text/javascript"></script>
+        <title>AJAX: GoT API</title>
+    </head>
+    <body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                </a>
+            
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+            
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                <a class="navbar-item">
+                    Home
+                </a>
+            
+                <a class="navbar-item">
+                    Documentation
+                </a>
+            
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                    More
+                    </a>
+            
+                    <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                        About
+                    </a>
+                    <a class="navbar-item">
+                        Jobs
+                    </a>
+                    <a class="navbar-item">
+                        Contact
+                    </a>
+                    <hr class="navbar-divider">
+                    <a class="navbar-item">
+                        Report an issue
+                    </a>
+                    </div>
+                </div>
+                </div>
+            
+                <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                    <a class="button is-dark">
+                        <strong>Sign up</strong>
+                    </a>
+                    <a class="button is-dark">
+                        Log in
+                    </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </nav>
+        <section class="hero is-dark">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                    GoT Houses
+                </h1>
+                <h2 class="subtitle">
+                    Everyone who isn't us is an enemy.
+                </h2>
+              </div>
+            </div>
+        </section>
+        <div class="container is-fullhd">
+            <div class="columns">
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                        <figure class="image is-4by3" id="16">
+                            <img src="images/baratheon.png" alt="Placeholder image">
+                        </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                        <figure class="image is-4by3" id="229">
+                            <img src="images/lannister.jpg" alt="Placeholder image">
+                        </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                        <figure class="image is-4by3" id="362">
+                            <img src="images/stark.jpg" alt="Placeholder image">
+                        </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                        <figure class="image is-4by3" id="378">
+                            <img src="images/targaryen.jpg" alt="Placeholder image">
+                        </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container is-fullhd container_house">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="content">
+                                <h2 class="house_h2">House Details</h2>
+                                <p>Name:</p>
+                                <p>Words:</p>
+                                <p>Titles:</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
